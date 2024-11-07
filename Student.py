@@ -85,3 +85,14 @@ class Student(BaseClass):
 
     def set_intended_major(self, intended_major: str):
         self.__intended_major = intended_major
+
+    def __str__(self):
+        return (f'Name: {self.__name}\n'
+                f'ID: {self.__id}\n'
+                f'Mailing Address: {self.__mailing_address}\n'
+                f'Email Address: {self.__email_address}\n'
+                f'Phone Number: {self.__phone_number}\n'
+                f'Birth Date: {self.__birth_date}\n'
+                f'Acceptance Date: {self.__acceptance_date}\n'
+                f'Starting Semester: {self.__start_semester}\n'
+                f'Intended Major: {self.__intended_major}')

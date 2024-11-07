@@ -237,11 +237,14 @@ student5_student = Student(
     "Business Administration" # Student Intended Major
 )
 
-student1_student.display()
-student2_student.display()
-student3_student.display()
-student4_student.display()
-student5_student.display()
+
+
+students = [student1_student, student2_student, student3_student, student4_student, student5_student]
+for student in students:
+    print(student)
+
+
+
 
 """
 Student Class
