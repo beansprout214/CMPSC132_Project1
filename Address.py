@@ -1,3 +1,12 @@
+# Name: Hunter Becker, Chris Gallazeski
+# Course: CMPSC 132
+# File Name: Address.py
+# Date: 11/08/24
+#
+# Description: Contains the Address class
+# Attributes: street, city, state, zip, type
+
+
 from BaseClass import BaseClass
 
 

@@ -1,22 +1,17 @@
-class Name:
+from BaseClass import BaseClass
+
+
+class Name(BaseClass):
     def __init__(self,
-                 first:str,
-                 middle:str,
-                 last:str
+                 first : str,
+                 middle : str,
+                 last : str,
                  ):
         self.__first = first
         self.__middle = middle
         self.__last = last
 
-    def set_first(self,first):
-        self.__first = first
-
-    def set_middle(self,middle):
-        self.__middle = middle
-
-    def set_last(self,last):
-        self.__last = last
-
+    # Getters
     def get_first(self):
         return self.__first
 
@@ -29,3 +24,12 @@ class Name:
     def __str__(self):
         return f"{self.__first} {self.__middle} {self.__last}"
 
+    # Setters
+    def set_first(self,first):
+        self.__first = first
+
+    def set_middle(self,middle):
+        self.__middle = middle
+
+    def set_last(self,last):
+        self.__last = last

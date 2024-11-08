@@ -1,3 +1,12 @@
+# Name: Hunter Becker, Chris Gallazeski
+# Course: CMPSC 132
+# File Name: Address.py
+# Date: 11/08/24
+#
+# Description: Contains the Email class
+# Attributes: address, type
+
+
 from BaseClass import BaseClass
 
 

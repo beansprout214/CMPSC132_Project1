@@ -1,9 +1,18 @@
+# Name: Hunter Becker, Chris Gallazeski
+# Course: CMPSC 132
+# File Name: Address.py
+# Date: 11/08/24
+#
+# Description: Tests the student and aggregate class
+
+
 from PhoneNumber import PhoneNumber
 from Semester import Semester
 from Address import Address
 from Student import Student
 from Email import Email
 from Date import Date
+
 
 student1_phone_number = PhoneNumber(
     9876543210, 
@@ -238,10 +247,10 @@ student5_student = Student(
 )
 
 
-
 students = [student1_student, student2_student, student3_student, student4_student, student5_student]
-for student in students:
-    print(student)
+if __name__ == "__main__":
+    for student in students:
+        student.display()
 
 
 

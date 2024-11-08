@@ -1,3 +1,12 @@
+# Name: Hunter Becker, Chris Gallazeski
+# Course: CMPSC 132
+# File Name: Address.py
+# Date: 11/08/24
+#
+# Description: Contains the Semester
+# Attributes: season, year
+
+
 from BaseClass import BaseClass
 
 
