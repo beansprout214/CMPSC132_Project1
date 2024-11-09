@@ -1,4 +1,4 @@
-# Name: Hunter Becker, Chris Gallazeski
+# Name: Chris Gallazeski
 # Course: CMPSC 132
 # File Name: Menu.py
 # Date: 11/08/24

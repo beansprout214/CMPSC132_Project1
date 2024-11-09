@@ -1,4 +1,4 @@
-# Name: Hunter Becker, Chris Gallazeski
+# Name: Hunter Becker
 # Course: CMPSC 132
 # File Name: Address.py
 # Date: 11/08/24
